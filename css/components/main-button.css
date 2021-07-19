@@ -1,0 +1,45 @@
+
+.main-button {
+    display: inline-block;
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+    box-shadow: 5px 5px 0px #000000;
+    background-color: #e77f67;
+    padding: 18px 20px;
+    transition: transform 200ms ease-in-out;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.main-button:hover {
+    transform:scale(1.1,1.1);    
+    background-color: #e15f41;
+    
+   -webkit-transition: background-color 300ms ease-out;
+   -moz-transition: background-color 300ms ease-out;
+   -o-transition: background-color 300ms ease-out;
+   transition: background-color 300ms ease-out;
+}
+
+.main-button.-full{
+    width: 100%;
+    border: none;
+    transform: none;    
+}
+
+.main-button.-full:hover{
+    
+    transform:scale(1.02);    
+    background-color: #e15f41;
+    
+   -webkit-transition: background-color 300ms ease-out;
+   -moz-transition: background-color 300ms ease-out;
+   -o-transition: background-color 300ms ease-out;
+   transition: background-color 300ms ease-out;
+}
+
+.main-button.-btn-pixel{
+    border: none;
+    margin-top: 30px;
+}
